@@ -1,0 +1,20 @@
+/* belajar mengenai text styling */
+
+h1 {
+    text-align: center;
+    color:chocolate;
+    text-transform: uppercase;
+    word-spacing: default;
+}
+
+p {
+    text-align: justify;
+    font-size: large;
+    text-indent: 2%;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 5px;
+
+}

@@ -1,0 +1,53 @@
+/* selector adalah hal yang digunakan pada CSS untuk mengenali sebuah elemen pada HTML yang akan diberikan style */
+
+/* 
+macam-macam selectors
+1. elemen HTML -> head, body, h1-h6, p
+2. id -> id="namaId", di css #namaId
+3. class -> class="namaClass", di css .namaClass
+4. complex selector
+
+
+Id : 
+1. sebuah elemen HTML hanya boleh punya 1 id
+2. setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut
+3. dapat digunakan sebagai penanda halaman untuk link
+4. digunakan juga untuk javascript
+5. sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)
+*/
+
+body{
+    font-family: arial;
+}
+
+h1, h2{
+    color:green;
+}
+
+ul li a {
+    color:orange;
+}
+
+ol li a {
+    color:brown;
+}
+
+#p1 {
+    color:orangered;
+}
+
+.p2 {
+    color:fuchsia;
+}
+
+.cetak-tebal {
+    font-weight:bold;
+}
+
+.p3 {
+    color:saddlebrown;
+}
+
+p.cetak-tebal {
+    font-size: 25px;
+}

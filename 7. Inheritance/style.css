@@ -1,0 +1,14 @@
+/* 
+Inheritance -> pewarisan
+inheritance adalah sebuah elemen mewarisi beberapa nilai dari properti yg dimiliki oleh parent-nya
+property yg diwariskan : color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space
+elemen <a> secara default tidak mewarisi property color
+supaya mau harus dilakukan seperti di bawah
+*/
+
+body {
+    font-family: arial;
+    color:darkgrey;
+}
+
+a { color: inherit; }
